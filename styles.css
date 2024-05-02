@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif; /* Changed font-family to Arial */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Changed background color */
+}
+
+header {
+    background-color: #343a40; /* Darker background color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    margin: 10px 0; /* Increased margin */
+    color: #007bff; /* Changed heading color */
+}
+
+button {
+    display: inline-block; /* Changed to inline-block */
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    background-color: #37e015;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #57b300;
+}
+
+.location-section {
+    max-width: 800px; /* Increased max-width */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+#locationData, #thingSpeakData {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#latitude, #longitude, #tsLatitude, #tsLongitude {
+    font-weight: bold;
+}
+
+.timestamp {
+    font-style: italic;
+    color: #777;
+}

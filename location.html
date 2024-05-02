@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Tracking</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <center>
+        <h1>Location Tracking</h1>
+        <button id="logButton">GET LOCATION</button>
+
+        <section class="location-section">
+            <div id="locationData">
+                <h2>Your Location</h2>
+                <p>Latitude: <span id="latitude">Waiting for location...</span></p>
+                <p>Longitude: <span id="longitude">Waiting for location...</span></p>
+                <p>Timestamp: <span id="timestamp">-</span></p>
+            </div>
+
+            <div id="thingSpeakData">
+                <h2>Recent Data from ThingSpeak</h2>
+                <p>Latitude: <span id="tsLatitude">Loading...</span></p>
+                <p>Longitude: <span id="tsLongitude">Loading...</span></p>
+                <p>Timestamp: <span id="tsTimestamp">Loading...</span></p>
+            </div>
+
+            <div id="thingSpeakChart">
+                <h2>ThingSpeak Chart</h2>
+            </div>
+        </section>
+    </center>
+
+    <script src="script.js"></script>
+</body>
+</html>
